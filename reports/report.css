@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;800&family=Caveat:wght@500;600&family=Noto+Sans+JP:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap');
 
 :root {
   --paper: #FBFAF6;
@@ -40,7 +40,7 @@ a { color: var(--pencil); }
 .backlink {
   display: inline-block;
   margin-top: 40px;
-  font-family: 'Caveat', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 19px;
   color: var(--pencil);
   text-decoration: none;
@@ -48,15 +48,15 @@ a { color: var(--pencil); }
 .backlink:hover { opacity: 0.7; }
 
 .week-mark {
-  font-family: 'Caveat', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 22px;
   color: var(--pencil);
   margin-bottom: 8px;
 }
 
 h1 {
-  font-family: 'Shippori Mincho', serif;
-  font-weight: 500;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 800;
   font-size: 29px;
   line-height: 1.6;
   margin: 0 0 28px;
@@ -70,13 +70,13 @@ h1 {
   margin-bottom: 32px;
 }
 .thinker-card .label {
-  font-family: 'Caveat', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 19px;
   color: var(--pencil);
   margin-bottom: 4px;
 }
 .thinker-card .name {
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
@@ -87,7 +87,7 @@ h1 {
 }
 
 h2.section {
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
   font-weight: 600;
   color: var(--pencil);
@@ -99,7 +99,7 @@ h2.section {
 p { font-size: 15px; margin: 0 0 18px; }
 
 .quote {
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 17px;
   color: var(--ink);
   opacity: 0.85;
@@ -115,7 +115,7 @@ p { font-size: 15px; margin: 0 0 18px; }
   margin: 32px 0;
 }
 .bridge .label {
-  font-family: 'Caveat', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 19px;
   color: var(--pencil);
   margin-bottom: 8px;
@@ -128,12 +128,12 @@ p { font-size: 15px; margin: 0 0 18px; }
   border-top: 1px dashed var(--line);
 }
 .question-label {
-  font-family: 'Caveat', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 22px;
   color: var(--pencil);
 }
 .question-text {
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 18.5px;
   margin-top: 10px;
   line-height: 1.9;
@@ -145,7 +145,7 @@ p { font-size: 15px; margin: 0 0 18px; }
   color: var(--ink-faint);
 }
 .further .label {
-  font-family: 'Caveat', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   color: var(--pencil);
   display: block;
@@ -154,7 +154,7 @@ p { font-size: 15px; margin: 0 0 18px; }
 
 .space-note {
   margin-top: 44px;
-  font-family: 'Caveat', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   color: var(--ink-faint);
 }

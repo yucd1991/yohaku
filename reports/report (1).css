@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;800&family=Caveat:wght@500;600&family=Noto+Sans+JP:wght@300;400;500;600&display=swap');
+
+:root {
+  --paper: #FBFAF6;
+  --line: #E4E0D4;
+  --ink: #3A362E;
+  --ink-faint: #A39C8A;
+  --pencil: #8A7F63;
+  --card: #F3F0E6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1E1C17;
+    --line: #35311F;
+    --ink: #E8E3D6;
+    --ink-faint: #8B8371;
+    --pencil: #B8AC8A;
+    --card: #262319;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  background-image: repeating-linear-gradient(transparent, transparent 38px, var(--line) 39px);
+  color: var(--ink);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  line-height: 2.0;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--pencil); }
+
+.wrap { max-width: 660px; margin: 0 auto; padding: 76px 40px 120px; }
+
+.backlink {
+  display: inline-block;
+  margin-top: 40px;
+  font-family: 'Caveat', cursive;
+  font-size: 19px;
+  color: var(--pencil);
+  text-decoration: none;
+}
+.backlink:hover { opacity: 0.7; }
+
+.week-mark {
+  font-family: 'Caveat', cursive;
+  font-size: 22px;
+  color: var(--pencil);
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 1.6;
+  margin: 0 0 28px;
+}
+
+.thinker-card {
+  background: var(--card);
+  border: 1px dashed var(--line);
+  border-radius: 2px;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+}
+.thinker-card .label {
+  font-family: 'Caveat', cursive;
+  font-size: 19px;
+  color: var(--pencil);
+  margin-bottom: 4px;
+}
+.thinker-card .name {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.thinker-card .meta {
+  font-size: 12.5px;
+  color: var(--ink-faint);
+  margin-top: 6px;
+}
+
+h2.section {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--pencil);
+  margin: 40px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+p { font-size: 15px; margin: 0 0 18px; }
+
+.quote {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 17px;
+  color: var(--ink);
+  opacity: 0.85;
+  margin: 28px 0;
+  padding-left: 20px;
+  border-left: 2px solid var(--line);
+}
+
+.bridge {
+  background: var(--card);
+  border-radius: 2px;
+  padding: 22px 24px;
+  margin: 32px 0;
+}
+.bridge .label {
+  font-family: 'Caveat', cursive;
+  font-size: 19px;
+  color: var(--pencil);
+  margin-bottom: 8px;
+}
+.bridge p:last-child { margin-bottom: 0; }
+
+.question-box {
+  margin-top: 48px;
+  padding: 28px 0 0;
+  border-top: 1px dashed var(--line);
+}
+.question-label {
+  font-family: 'Caveat', cursive;
+  font-size: 22px;
+  color: var(--pencil);
+}
+.question-text {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 18.5px;
+  margin-top: 10px;
+  line-height: 1.9;
+}
+
+.further {
+  margin-top: 44px;
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+.further .label {
+  font-family: 'Caveat', cursive;
+  font-size: 18px;
+  color: var(--pencil);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.space-note {
+  margin-top: 44px;
+  font-family: 'Caveat', cursive;
+  font-size: 18px;
+  color: var(--ink-faint);
+}
+
+footer.report-footer {
+  text-align: center;
+  padding: 40px 0 60px;
+  font-size: 11px;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--line);
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .wrap { padding: 56px 24px 90px; }
+  h1 { font-size: 24px; }
+}
